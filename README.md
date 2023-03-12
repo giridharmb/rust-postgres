@@ -1,10 +1,5 @@
 #### PostgreSQL & RUST : Using Diesel Crate
 
-References
-
-- https://diesel.rs/guides/getting-started
-- https://doc.rust-lang.org/cargo/reference/manifest.html
-
 #### Steps
 
 Create ENV File, Which has postgres connection URL
@@ -153,3 +148,9 @@ We can run our new script with `cargo run --bin write_post`
 - `cargo run --bin show_posts`
 - `cargo run --bin publish_post 1`
 - `cargo run --bin delete_post demo`
+
+References
+
+- https://diesel.rs/guides/getting-started
+- https://doc.rust-lang.org/cargo/reference/manifest.html
+
